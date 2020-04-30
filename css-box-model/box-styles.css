@@ -1,10 +1,29 @@
+body{
+    font-size: 12px;
+}
+
 h1,
 p {
     background-color: #dde0e3;
+}
+
+h1 {
+    padding: 2em;
+    /* border-radius: 1em solid #5d6063; */
+    /* border-top: 1em solid #5d6063; */
+    border-width: 1em 1em 1em 1em;
+    border-style: double dashed dashed double;
+
+}
+
+p {
+    padding: 1em 1em 1em 2em;
+    /* margin-bottom: 4em; */
 }
 
 em,
 strong {
     background-color: #b2d6ff;
     display: inline;
+    padding: 2.5em;
 }
