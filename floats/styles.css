@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;
+    /* Medium blue */
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+    /* Red */
+}
+
+.content {
+    float: left;
+    width: 600px;
+    height: 500px;
+    background-color: #F5CF8E;
+    /* Yellow */
+}
+
+.footer {
+    clear: both; 
+    height: 200px;
+    background-color: #D6E9FE;
+    /* Light blue */
+}
