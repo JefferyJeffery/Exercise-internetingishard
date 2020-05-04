@@ -7,7 +7,13 @@
 .page {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* background-color: #eaecf0; */
+}
+
+.container {
+    overflow: hidden;
+    background-color: #EAEDF0;
 }
 
 .menu {
@@ -33,7 +39,7 @@
 }
 
 .footer {
-    clear: both; 
+    /* clear: both;  */
     height: 200px;
     background-color: #D6E9FE;
     /* Light blue */
